@@ -4,11 +4,16 @@ body {
     background: linear-gradient(68.15deg, #2F2325 16.62%, #8E5D52 85.61%);
 }
 
+header{
+    border-bottom: 0.4px solid #FFF2E7;
+}
+
 .cabecalho {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
+    margin: 30px;
 }
 
 .cabecalho-navegacao{
@@ -16,4 +21,65 @@ body {
     justify-content: space-around;
     font-family: 'Sarala', sans-serif;
     font-weight: 400;
+}
+
+.cabecalho-link{
+    padding: 20px;
+}
+
+.cabecalho-link:hover{
+    color: rgb(119, 180, 209);
+    transition: 0.5s;
+}
+
+.cabecalho-imagem{
+    height: 65px;
+    margin: 20px;
+}
+
+.conteudo-principal{
+    padding: 20px;
+    border: 1px solid red
+}
+
+.conteudo-principal-secao1-div{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid red
+}
+
+.conteudo-principal-secao1-botao{
+    font-family: 'Sarala', sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    color: #2F2325;
+    width: 180px;
+    height: 60px;
+    border: none;
+    background: #ECD6C4;
+    box-shadow: 4px 5px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+}
+
+.conteudo-principal-secao1-botao:hover{
+    background-color: #f1c5a0;
+    transition: 0.5s;
+}
+
+.conteudo-principal-secao1-imagem{
+    display: flex;
+}
+
+
+
+
+
+
+
+.rodape-imagem{
+    display: block;
+    margin: 0 auto;
+    width: 395px;
+    height: 80px;
+    margin-bottom: 50px;
 }
